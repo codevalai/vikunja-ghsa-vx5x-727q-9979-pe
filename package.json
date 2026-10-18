@@ -1,0 +1,24 @@
+{
+  "name": "vikunja-ghsa-vx5x-727q-9979-pe",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "test": "tsx --test tests/suite.test.ts",
+    "benchmark": "tsx --test tests/suite.test.ts",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "express": "^4.21.2",
+    "dotenv": "^17.2.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2"
+  }
+}
